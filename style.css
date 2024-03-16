@@ -58,15 +58,19 @@
 }
 
 .container img{
-    width: 1000px;
+    width: 600px;
     margin: 100px 0;
 }
 
+.container footer svg{
+    cursor: pointer;
+}
+
 .container footer .middle{
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 .container footer p{
     font-size: 14px;
-    margin: 10px 0;
+    margin: 50px 0;
 }
