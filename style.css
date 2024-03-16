@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container .logo{
+    margin: 50px 0;
+}
+
+.container .title{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 3em;
+    color: rgb(156, 156, 156);
+}
+
+.container .title > span{
+    font-weight: bold;
+    color: #000;
+}
+
+.container p{
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.container form .mail{
+    width: 400px;
+    padding: 16px;
+    border: 1px solid #4c7bf3;
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+    margin-right: 15px;
+}
+
+.container form .submit{
+    width: 200px;
+    padding: 16px;
+    border-radius: 30px;
+    font-size: 16px;
+    border: none;
+    background-color: #4c7bf3;
+    color: white;
+    cursor: pointer;
+}
+
+.container img{
+    width: 1000px;
+    margin: 100px 0;
+}
+
+.container footer .middle{
+    margin: 0 15px;
+}
+
+.container footer p{
+    font-size: 14px;
+    margin: 10px 0;
+}
